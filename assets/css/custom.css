@@ -1,0 +1,127 @@
+@font-face {
+    font-family: spaceGrotesk;
+    src: url('../images/font/SpaceGrotesk-Bold.ttf');
+}
+@font-face {
+    font-family: spaceGroteskLight;
+    src: url('../images/font/SpaceGrotesk-Medium.ttf');
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: #f7f7f7;
+}
+.custom-font
+{
+    font-family: spaceGrotesk;
+}
+.custom-font-light
+{
+    font-family: spaceGroteskLight;
+}
+.text-gray
+{
+    color: #919090;
+}
+.text-gray-2
+{
+    color: #6d6d6d;
+}
+.text-gradient {
+    color: linear-gradient(45deg,  #b6b6b6, #595959);
+}
+.bg-gray
+{
+    background-color: #a1a1a1;
+}
+.bg-gray-2
+{
+    background-color: #bababa;
+}
+.bg-gray-3
+{
+    background-color: #cccccc;
+}
+.bg-dark-gradiant
+{
+    background: linear-gradient(45deg, #595959, #222222, #595959);
+    background-size: cover;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-dark-gradiant .element-image {
+    position: absolute;
+    max-width: 50%;
+    opacity: 0.2;
+}
+.btn-custom-light
+{
+    background-color: #a1a1a1;
+    color: black;
+    text-decoration: none;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: spaceGrotesk;
+    font-weight: lighter;
+}
+.btn-custom-light:hover
+{
+    background-color: #979797;
+}
+
+.btn-custom-light-gradiant
+{
+    background: linear-gradient(45deg, #a1a1a1, #ececec);
+    color: black;
+    text-decoration: none;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: spaceGrotesk;
+    font-weight: lighter;
+}
+.btn-custom-light-gradiant:hover
+{
+    background: linear-gradient(45deg,#ececec,#a1a1a1);
+}
+.btn-custom-dark-gradiant
+{
+    background: linear-gradient(45deg, #383838, #818181);
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    padding: 7px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: spaceGrotesk;
+    font-weight: lighter;
+}
+.btn-custom-dark-gradiant:hover
+{
+    background: linear-gradient(45deg, #818181,#383838);
+}
+.blockchain-image
+{
+    max-width: 130px;
+}
+
+
+
+
+
+
+/* Styles for devices with a maximum width of 767px (typical for mobile devices) */
+@media (max-width: 767px) {
+   
+    .bg-dark-gradiant .element-image {
+        position: absolute;
+        max-width: 100%;
+        opacity: 0.2;
+    }
+}
